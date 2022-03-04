@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <!-- Escreva seu código aqui -->
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/styles/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Escreva seu código aqui -->
+
+    <main>
+      <div id="cadastro-player"></div>
+      <div id="regras"></div>
+      <div id="Contador">
+        <p>Vitorias: <span id="vitoria"></span></p>
+        <a href="index.html">Restart</a>
+        <p>Derrotas: <span id="derrota"></span></p>
+      </div>
+      <div id="container">
+        <div id="computador"></div>
+        <div id="vs"><img src="src/img/vs.png" alt="" /></div>
+        <div id="player"></div>
+      </div>
+      <div id="opcao"></div>
+    </main>
+
+    <!-- Script -->
+    <script type="module" src="src/script.js"></script>
+  </body>
 </html>
